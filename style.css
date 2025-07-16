@@ -1,0 +1,59 @@
+@font-face {
+  font-family: sora;
+  src: url("../assets/Sora-Regular.ttf");
+}
+
+@font-face {
+  font-family: soraBold;
+  src: url("../assets/Sora-Bold.ttf");
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  font-family: sora;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 3rem;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  border: none;
+  cursor: pointer;
+}
+
+button:active {
+  border: 1px solid black;
+}
+
+#r-btn {
+  background-color: red;
+  color: wheat;
+}
+
+#b-btn {
+  background-color: blue;
+  color: wheat;
+}
+
+#g-btn {
+  background-color: green;
+  color: wheat;
+}
+
+#random-btn {
+  background-color: #fff;
+  color: black;
+}
